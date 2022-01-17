@@ -7,5 +7,5 @@ COPY requirements.txt .
 RUN . /opt/venv/bin/activate && pip install -r requirements.txt
 
 # Run the application:
-COPY solution3.py .
-CMD . /opt/venv/bin/activate && exec python solution3.py
+COPY playground.py .
+CMD . /opt/venv/bin/activate && exec python playground.py
